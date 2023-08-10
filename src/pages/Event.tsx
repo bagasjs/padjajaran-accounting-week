@@ -1,6 +1,7 @@
 import Container from "../components/Container";
 import Navbar from "../components/Navbar";
 import Section from "../components/Section";
+import { Link } from "react-router-dom";
 
 import ae from "../assets/AE.png"
 import is from "../assets/IS.png"
@@ -26,21 +27,21 @@ export default function Event() {
                     <img className="absolute -z-10 -bottom-20 -right-20 hidden md:block w-56" src={kincir1} alt="Kincir"/>
                     <div className="flex flex-col items-center">
                         <img src={natcom} className="w-48 mb-6" />
-                        <a href="#natcom" className="text-black font-bold font-balmond bg-gray-200 hover:ring-4 hover:ring-gray-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        <Link to="#natcom" className="text-black font-bold font-balmond bg-gray-200 hover:ring-4 hover:ring-gray-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             See More
-                        </a>
+                        </Link>
                     </div>
                     <div className="flex flex-col items-center">
                         <img src={ae} className="w-48 mb-6" />
-                        <a href="#additionalEvents" className="text-black font-bold font-balmond bg-gray-200 hover:ring-4 hover:ring-gray-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        <Link to="#additionalEvents" className="text-black font-bold font-balmond bg-gray-200 hover:ring-4 hover:ring-gray-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             See More
-                        </a>
+                        </Link>
                     </div>
                     <div className="flex flex-col items-center">
                         <img src={is} className="w-48 mb-6" />
-                        <a href="#internasionalSeminar" className="text-black font-bold font-balmond bg-gray-200 hover:ring-4 hover:ring-gray-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        <Link to="#internasionalSeminar" className="text-black font-bold font-balmond bg-gray-200 hover:ring-4 hover:ring-gray-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             See More
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </Section>
@@ -58,12 +59,12 @@ export default function Event() {
                         National Competition is a series of nationally standardized competitions to test the competence and knowledge of the participants. There will be several rounds, which are the Preliminary Round, Main Round, and the Final Round. Various tests are designed to examine the competencies of the participants in the field of accounting and/or non-accounting. Moreover, participants can sharpen their skills in the field. This event can also expand the horizon of the participant in accounting and/or non-accounting.
                     </p>
                     <div className="mt-6 md:w-1/2 flex justify-around">
-                        <a href="https://bit.ly/BookletNatcomp23" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        <Link to="https://bit.ly/BookletNatcomp23" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             BOOKLET
-                        </a>
-                        <a href="https://bit.ly/NatcompRegistration2023" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        </Link>
+                        <Link to="https://bit.ly/NatcompRegistration2023" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             REGISTER
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </Section>
@@ -79,12 +80,12 @@ export default function Event() {
                     </div>
                     <img src={timeline} alt="timeline" className="max-w-lg w-full" />
                     <div className="mt-6 md:w-1/2 flex justify-around">
-                        <a href="https://bit.ly/BookletNatcomp23" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        <Link to="https://bit.ly/BookletNatcomp23" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             BOOKLET
-                        </a>
-                        <a href="https://bit.ly/NatcompRegistration2023" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        </Link>
+                        <Link to="https://bit.ly/NatcompRegistration2023" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             REGISTER
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </Section>
@@ -105,12 +106,12 @@ export default function Event() {
                         Grand Topic: <span className="text-yellow-600">“Driving Sustainable Business Practice: The Role of Audit and Assurance”</span>
                     </p>
                     <div className="mt-6 md:w-1/2 flex justify-around">
-                        <a className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        <Link to="#" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             BOOKLET
-                        </a>
-                        <a className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        </Link>
+                        <Link to="#" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             REGISTER
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </Section>
@@ -126,12 +127,12 @@ export default function Event() {
                     </div>
                     <img src={openingCeremony} alt="timeline" className="max-w-lg w-full" />
                     <div className="mt-6 md:w-1/2 flex justify-around">
-                        <a className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        <Link to="#" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             BOOKLET
-                        </a>
-                        <a className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        </Link>
+                        <Link to="#" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             REGISTER
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </Section>
@@ -147,12 +148,12 @@ export default function Event() {
                     </div>
                     <img src={cityTour} alt="timeline" className="max-w-lg w-full" />
                     <div className="mt-6 md:w-1/2 flex justify-around">
-                        <a className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        <Link to="#" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             BOOKLET
-                        </a>
-                        <a className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        </Link>
+                        <Link to="#" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             REGISTER
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </Section>
@@ -168,12 +169,12 @@ export default function Event() {
                     </div>
                     <img src={closingCeremony} alt="timeline" className="max-w-lg w-full" />
                     <div className="mt-6 md:w-1/2 flex justify-around">
-                        <a className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        <Link to="#" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             BOOKLET
-                        </a>
-                        <a className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        </Link>
+                        <Link to="#" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             REGISTER
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </Section>

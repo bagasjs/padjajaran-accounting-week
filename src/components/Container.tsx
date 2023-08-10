@@ -1,4 +1,4 @@
-import { Children, PropsWithChildren, useEffect, useRef } from "react";
+import { PropsWithChildren, useEffect, useRef } from "react";
 
 import background from "../assets/bg.png";
 

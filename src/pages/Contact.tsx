@@ -2,6 +2,7 @@ import Container from "../components/Container";
 import Navbar from "../components/Navbar";
 import Section from "../components/Section";
 import ContactCard from "../components/Card";
+import { Link } from "react-router-dom";
 
 import tiktokLogo from "../assets/tiktok.png"
 import instagramLogo from "../assets/instagram.png"
@@ -63,20 +64,20 @@ export default function Contact() {
                         }
                     </div>
                     <div className="max-w-sm w-full mt-12 grid grid-cols-4">
-                        <a href="https://instagram.com/padjajaranaccountingweek" className="w-full flex items-center justify-center col-span-1">
+                        <Link to="https://instagram.com/padjajaranaccountingweek" className="w-full flex items-center justify-center col-span-1">
                             <img src={instagramLogo} alt="Instagram" className="h-12 mr-3 mb-1" />
-                        </a>
-                        <a href="https://instagram.com/padjajaranaccountingweek" className="w-full flex flex-col justify-center items-start col-span-3">
+                        </Link>
+                        <Link to="https://instagram.com/padjajaranaccountingweek" className="w-full flex flex-col justify-center items-start col-span-3">
                             <h1 className="text-sm md:text-lg text-blue-900 font-extrabold">INSTAGRAM</h1>
                             <p className="font-bold font-balmond">@padjajaranaccountingweek</p>
-                        </a>
-                        <a href="https://tiktok.com/@PAW18th" className="w-full flex items-center justify-center col-span-1">
+                        </Link>
+                        <Link to="https://tiktok.com/@PAW18th" className="w-full flex items-center justify-center col-span-1">
                             <img src={tiktokLogo} alt="Tiktok" className="h-24 mr-3 mb-1" />
-                        </a>
-                        <a href="https://tiktok.com/@PAW18th" className="w-full flex flex-col justify-center items-start col-span-3">
+                        </Link>
+                        <Link to="https://tiktok.com/@PAW18th" className="w-full flex flex-col justify-center items-start col-span-3">
                             <h1 className="text-blue-900 font-extrabold">TIKTOK</h1>
                             <p className="font-bold font-balmond">@PAW18th</p>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </Section>
