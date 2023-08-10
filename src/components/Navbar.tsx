@@ -24,7 +24,7 @@ export default function Navbar() {
                     </button>
                 </div>
                 <div className={`items justify-between ${showMenu ? menuShownStyle : menuHiddenStyle} w-full md:flex md:w-auto md:order-1`} id="navbar-menu-items" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex={-1}>
-                    <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent">
+                    <ul className="flex flex-col font-poppins font-bold p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent">
                         <li className="block py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">
                             <a href="/">Home</a>
                         </li>
@@ -33,9 +33,6 @@ export default function Navbar() {
                         </li>
                         <li className="block py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">
                             <a href="/events">Our Events</a>
-                        </li>
-                        <li className="block py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">
-                            <a href="/supporters">Our Supporters</a>
                         </li>
                         <li className="block py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">
                             <a href="/contact">Contact Us</a>

@@ -1,6 +1,6 @@
--Link Registrasi Natcomp : bit.ly/NatcompRegistration2023
+- Link Registrasi Natcomp : bit.ly/NatcompRegistration2023
 
--Link Booklet Natcomp:
+- Link Booklet Natcomp:
 https://bit.ly/BookletNatcomp23
 
 Link Whatsapp : 
@@ -13,3 +13,8 @@ Instagram :
 
 Tiktok :  
 -  https://www.tiktok.com/@paw18th
+
+TODO :
+- Ubah font
+- Perbaiki posisi aksesoris
+- (0 Priority) Tambahkan embedded tiktok dan instagram

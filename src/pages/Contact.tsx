@@ -52,12 +52,12 @@ export default function Contact() {
             <Navbar/>
             <Section className="flex flex-col justify-center items-center">
                 <div className="md:max-w-3xl w-full md:p-1 relative z-0 flex flex-col justify-center items-center">
-                    <img className="absolute -top-20 -left-20 hidden md:block w-36" src={kincir1} alt="Kincir"/>
-                    <img className="absolute -top-20 -right-20 hidden md:block h-28" src={pohon1} alt="Pohon"/>
-                    <img className="absolute -z-10 -bottom-20 -left-40 hidden md:block w-64" src={pohon2} alt="Pohon"/>
-                    <img className="absolute -bottom-20 -right-20 hidden md:block w-56" src={gedung1} alt="Gedung"/>
-                    <h1 className="text-yellow-700 mb-6 text-xl font-extrabold">CONTACT US</h1>
-                    <div className="flex w-full md:w-3/4 items-center justify-around">
+                    <img className="absolute -top-20 -left-40 hidden md:block h-44" src={pohon2} alt="Cemara"/>
+                    <img className="absolute -top-20 -right-20 hidden md:block h-44" src={gedung1} alt="Gedung"/>
+                    <img className="absolute -z-10 -bottom-20 -left-40 hidden md:block h-72" src={kincir1} alt="Kincir"/>
+                    <img className="absolute -bottom-20 -right-20 hidden md:block h-72" src={pohon1} alt="Pohon"/>
+                    <h1 className="text-yellow-700 mb-6 text-xl font-poppins font-extrabold">CONTACT US</h1>
+                    <div className="flex w-full md:w-3/4 items-center font-poppins justify-around">
                         { contactData.map((data: Contact, i: number) => 
                             <ContactCard key={i} name={data.name} whatsappURL={data.whatsappURL} whatsappNumber={data.whatsappNumber} lineID={data.lineID} lineURL={data.lineURL} />)
                         }
@@ -68,14 +68,14 @@ export default function Contact() {
                         </a>
                         <a href="https://instagram.com/padjajaranaccountingweek" className="w-full flex flex-col justify-center items-start col-span-3">
                             <h1 className="text-sm md:text-lg text-blue-900 font-extrabold">INSTAGRAM</h1>
-                            <p>@padjajaranaccountingweek</p>
+                            <p className="font-bold font-balmond">@padjajaranaccountingweek</p>
                         </a>
                         <a href="https://tiktok.com/@PAW18th" className="w-full flex items-center justify-center col-span-1">
                             <img src={tiktokLogo} alt="Tiktok" className="h-24 mr-3 mb-1" />
                         </a>
                         <a href="https://tiktok.com/@PAW18th" className="w-full flex flex-col justify-center items-start col-span-3">
                             <h1 className="text-blue-900 font-extrabold">TIKTOK</h1>
-                            <p>@PAW18th</p>
+                            <p className="font-bold font-balmond">@PAW18th</p>
                         </a>
                     </div>
                 </div>
