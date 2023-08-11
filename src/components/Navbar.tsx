@@ -14,7 +14,7 @@ export default function Navbar() {
                     <img src={logo} alt="Logo PAW" className="h-28"/>
                 </Link>
                 <div className="flex md:order-2">
-                    <Link to="https://forms.gle/mNxv7AQFcH2r45BWA" className="focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:focus:ring-yellow-900">
+                    <Link to="/events" className="focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:focus:ring-yellow-900">
                         <span className="font-extrabold">Register</span>
                     </Link>
                     <button data-collapse-toggle="navbar-menu-items" type="button" className="inline-flex relative items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-menu-item" aria-expanded="false" onClick={() => setShowMenu(!showMenu)}>
