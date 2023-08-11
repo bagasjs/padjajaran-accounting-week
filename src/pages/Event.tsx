@@ -27,21 +27,21 @@ export default function Event() {
                     <img className="absolute -z-10 -bottom-20 -right-20 hidden md:block w-56" src={kincir1} alt="Kincir"/>
                     <div className="flex flex-col items-center">
                         <img src={natcom} className="w-48 mb-6" />
-                        <Link to="#natcom" className="text-black font-bold font-balmond bg-gray-200 hover:ring-4 hover:ring-gray-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        <a href="#natcom" className="text-black font-bold font-balmond bg-gray-200 hover:ring-4 hover:ring-gray-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             See More
-                        </Link>
+                        </a>
                     </div>
                     <div className="flex flex-col items-center">
                         <img src={ae} className="w-48 mb-6" />
-                        <Link to="#additionalEvents" className="text-black font-bold font-balmond bg-gray-200 hover:ring-4 hover:ring-gray-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        <a href="#additionalEvents" className="text-black font-bold font-balmond bg-gray-200 hover:ring-4 hover:ring-gray-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             See More
-                        </Link>
+                        </a>
                     </div>
                     <div className="flex flex-col items-center">
                         <img src={is} className="w-48 mb-6" />
-                        <Link to="#internasionalSeminar" className="text-black font-bold font-balmond bg-gray-200 hover:ring-4 hover:ring-gray-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        <a href="#internasionalSeminar" className="text-black font-bold font-balmond bg-gray-200 hover:ring-4 hover:ring-gray-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             See More
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </Section>
@@ -79,14 +79,6 @@ export default function Event() {
                         <h1 className="text-green-950 font-extrabold font-poppins text-2xl">NATIONAL COMPETITION</h1>
                     </div>
                     <img src={timeline} alt="timeline" className="max-w-lg w-full" />
-                    <div className="mt-6 md:w-1/2 flex justify-around">
-                        <Link to="https://bit.ly/BookletNatcomp23" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
-                            BOOKLET
-                        </Link>
-                        <Link to="https://bit.ly/NatcompRegistration2023" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
-                            REGISTER
-                        </Link>
-                    </div>
                 </div>
             </Section>
             <Section id="internasionalSeminar" className="w-full flex items-center justify-center">
@@ -96,8 +88,8 @@ export default function Event() {
                     <img className="absolute -z-10 -bottom-20 -left-40 hidden md:block w-64" src={gedung1} alt="Gedung"/>
                     <img className="absolute -bottom-20 -right-20 hidden md:block w-56" src={pohon2} alt="Cemara"/>
                     <div className="mb-6 text-center">
-                        <h1 className="text-yellow-600 font-extrabold text-xl">OUR EVENTS</h1>
-                        <h1 className="text-green-950 font-extrabold text-2xl">INTERNATIONAL SEMINAR</h1>
+                        <h1 className="text-yellow-600 font-extrabold font-poppins text-xl">OUR EVENTS</h1>
+                        <h1 className="text-green-950 font-extrabold font-poppins text-2xl">INTERNATIONAL SEMINAR</h1>
                     </div>
                     <p className="md:w-1/2 text-justify font-bold font-balmond">
                         International Seminar is a meeting held with certain technicalities by conducting a thorough study of a particular topic along with problem-solving elaborated by experienced speakers in the respected field. International Seminar aims to convey information and new ideas to the general public through presentations and discussions surrounding the topic.
@@ -122,18 +114,10 @@ export default function Event() {
                     <img className="absolute -z-10 -bottom-20 -left-40 hidden md:block w-64" src={gedung1} alt="Gedung"/>
                     <img className="absolute -bottom-20 -right-20 hidden md:block w-56" src={pohon2} alt="Cemara"/>
                     <div className="mb-6 text-center">
-                        <h3 className="text-yellow-600 font-extrabold text-xl">OUR EVENTS</h3>
-                        <h1 className="text-green-950 font-extrabold text-2xl">ADDITIONAL EVENTS</h1>
+                        <h3 className="text-yellow-600 font-extrabold font-poppins text-xl">OUR EVENTS</h3>
+                        <h1 className="text-green-950 font-extrabold font-poppins text-2xl">ADDITIONAL EVENTS</h1>
                     </div>
                     <img src={openingCeremony} alt="timeline" className="max-w-lg w-full" />
-                    <div className="mt-6 md:w-1/2 flex justify-around">
-                        <Link to="#" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
-                            BOOKLET
-                        </Link>
-                        <Link to="#" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
-                            REGISTER
-                        </Link>
-                    </div>
                 </div>
             </Section>
             <Section className="w-full flex items-center justify-center">
@@ -147,14 +131,6 @@ export default function Event() {
                         <h1 className="text-green-950 font-extrabold font-poppins text-2xl">ADDITIONAL EVENTS</h1>
                     </div>
                     <img src={cityTour} alt="timeline" className="max-w-lg w-full" />
-                    <div className="mt-6 md:w-1/2 flex justify-around">
-                        <Link to="#" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
-                            BOOKLET
-                        </Link>
-                        <Link to="#" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
-                            REGISTER
-                        </Link>
-                    </div>
                 </div>
             </Section>
             <Section className="w-full flex items-center justify-center">
@@ -168,14 +144,6 @@ export default function Event() {
                         <h1 className="text-green-950 font-extrabold font-poppins text-2xl">ADDITIONAL EVENTS</h1>
                     </div>
                     <img src={closingCeremony} alt="timeline" className="max-w-lg w-full" />
-                    <div className="mt-6 md:w-1/2 flex justify-around">
-                        <Link to="#" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
-                            BOOKLET
-                        </Link>
-                        <Link to="#" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
-                            REGISTER
-                        </Link>
-                    </div>
                 </div>
             </Section>
         </Container>
