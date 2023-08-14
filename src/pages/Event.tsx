@@ -115,7 +115,7 @@ export default function Event() {
                     <img className="absolute -z-10 -bottom-20 -left-40 hidden md:block w-64" src={gedung1} alt="Gedung"/>
                     <img className="absolute -bottom-20 -right-20 hidden md:block w-56" src={pohon2} alt="Cemara"/>
                     <div className="mb-6 text-center">
-                        <h3 className="text-yellow-600 font-extrabold font-poppins text-xl">OUR EVENTS</h3>
+                        <h1 className="text-yellow-600 font-extrabold font-poppins text-xl">OUR EVENTS</h1>
                         <h1 className="text-green-950 font-extrabold font-poppins text-2xl">INTERNATIONAL SEMINAR</h1>
                     </div>
                     <img src={timeLineIS} alt="timeline-international-seminar" className="max-w-lg w-full" />
