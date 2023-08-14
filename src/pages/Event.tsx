@@ -14,6 +14,7 @@ import timeline from "../assets/timeline.png";
 import openingCeremony from "../assets/opening_ceremony.png";
 import closingCeremony from "../assets/closing_ceremony.png";
 import cityTour from "../assets/city_tour.png";
+import timeLineIS from "../assets/TIMELINE_IS.png";
 
 export default function Event() {
     return (
@@ -105,6 +106,19 @@ export default function Event() {
                             REGISTER
                         </Link>
                     </div>
+                </div>
+            </Section>
+            <Section className="w-full flex items-center justify-center">
+                <div className="md:max-w-4xl w-full md:p-1 relative z-0 flex flex-col justify-center items-center">
+                    <img className="absolute -top-20 -left-20 hidden md:block w-36" src={pohon1} alt="Pohon"/>
+                    <img className="absolute -top-20 -right-20 hidden md:block h-44" src={kincir1} alt="Kincir"/>
+                    <img className="absolute -z-10 -bottom-20 -left-40 hidden md:block w-64" src={gedung1} alt="Gedung"/>
+                    <img className="absolute -bottom-20 -right-20 hidden md:block w-56" src={pohon2} alt="Cemara"/>
+                    <div className="mb-6 text-center">
+                        <h3 className="text-yellow-600 font-extrabold font-poppins text-xl">OUR EVENTS</h3>
+                        <h1 className="text-green-950 font-extrabold font-poppins text-2xl">INTERNATIONAL SEMINAR</h1>
+                    </div>
+                    <img src={timeLineIS} alt="timeline-international-seminar" className="max-w-lg w-full" />
                 </div>
             </Section>
             <Section id="additionalEvents" className="w-full flex items-center justify-center">

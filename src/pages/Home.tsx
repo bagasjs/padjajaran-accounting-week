@@ -44,8 +44,8 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="w-full flex flex-col items-center">
-                            <h1 className="text-xl md:text-2xl text-center font-bold text-blue-950">SUB THEMES</h1>
-                            <p className="w-3/4 text-center font-bold font-balmond text-sm md:text-md text-yellow-600">“Is it profitable to invest in green financial instruments?” and “Big challenges on audit sustainability report”</p>
+                            <h1 className="text-xl md:text-2xl text-center font-bold text-blue-950">SUB-THEMES</h1>
+                            <p className="w-3/4 text-center font-bold font-balmond text-sm md:text-md text-yellow-600">“Is it profitable to Invest in Green Financial Instruments?” and “Big Challenges on Audit Sustainability Report”</p>
                         </div>
                     </div>
                     <img className="absolute -top-20 -left-20 hidden md:block w-36" src={kincir1} alt="Kincir"/>
