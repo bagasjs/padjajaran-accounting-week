@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Error from "./pages/Error";
 import Contact from "./pages/Contact";
 import Event from "./pages/Event";
+import Supporters from "./pages/Supporters";
 
 export const router = createBrowserRouter([
     {
@@ -19,6 +20,11 @@ export const router = createBrowserRouter([
     {
         path: "/contact",
         element: <Contact/>,
+        errorElement: <Error/>
+    },
+    {
+        path: "/supporters",
+        element: <Supporters/>,
         errorElement: <Error/>
     },
     {

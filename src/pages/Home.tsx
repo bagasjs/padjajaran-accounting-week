@@ -12,7 +12,7 @@ export default function Home() {
         <Container>
             <Navbar/>
             <Section id="video" className="flex items-center justify-center">
-                <div className="md:max-w-3xl w-full md:p-1 relative z-0">
+                <div className="md:max-w-2xl w-full md:p-1 relative z-0">
                     <video autoPlay className="w-full h-full z-10" controls={true}>
                         <source src={trailer} type="video/mp4" />
                     </video>

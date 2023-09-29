@@ -36,6 +36,9 @@ export default function Navbar() {
                             <Link to="/events">Our Events</Link>
                         </li>
                         <li className="block py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">
+                            <Link to="/supporters">Our Supporters</Link>
+                        </li>
+                        <li className="block py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">
                             <Link to="/contact">Contact Us</Link>
                         </li>
                     </ul>
