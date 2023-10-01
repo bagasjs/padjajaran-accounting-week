@@ -67,9 +67,9 @@ export default function Contact() {
                         <Link to="https://instagram.com/padjajaranaccountingweek" className="w-full flex items-center justify-center col-span-1">
                             <img src={instagramLogo} alt="Instagram" className="h-12 mr-3 mb-1" />
                         </Link>
-                        <Link to="https://instagram.com/padjajaranaccountingweek" className="w-full flex flex-col justify-center items-start col-span-3">
+                        <Link to="https://instagram.com/padjadjaranaccountingweek" className="w-full flex flex-col justify-center items-start col-span-3">
                             <h1 className="text-sm md:text-lg text-blue-900 font-extrabold">INSTAGRAM</h1>
-                            <p className="font-bold font-balmond">@padjajaranaccountingweek</p>
+                            <p className="font-bold font-balmond">@padjadjaranaccountingweek</p>
                         </Link>
                         <Link to="https://tiktok.com/@PAW18th" className="w-full flex items-center justify-center col-span-1">
                             <img src={tiktokLogo} alt="Tiktok" className="h-24 mr-3 mb-1" />

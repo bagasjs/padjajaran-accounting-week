@@ -47,7 +47,7 @@ export default function Event() {
                 </div>
             </Section>
             <Section id="natcom" className="w-full flex items-center justify-center">
-                <div className="md:max-w-4xl w-full md:p-1 relative z-0 flex flex-col justify-center items-center">
+                <div className="md:max-w-3xl w-full md:p-1 relative z-0 flex flex-col justify-center items-center">
                     <img className="absolute -top-20 -left-20 hidden md:block w-36" src={pohon1} alt="Pohon"/>
                     <img className="absolute -top-20 -right-20 hidden md:block h-44" src={kincir1} alt="Kincir"/>
                     <img className="absolute -z-10 -bottom-20 -left-40 hidden md:block w-64" src={gedung1} alt="Gedung"/>
@@ -70,7 +70,7 @@ export default function Event() {
                 </div>
             </Section>
             <Section className="w-full flex items-center justify-center">
-                <div className="md:max-w-4xl w-full md:p-1 relative z-0 flex flex-col justify-center items-center">
+                <div className="md:max-w-3xl w-full md:p-1 relative z-0 flex flex-col justify-center items-center">
                     <img className="absolute -top-20 -left-20 hidden md:block w-36" src={pohon1} alt="Pohon"/>
                     <img className="absolute -top-20 -right-20 hidden md:block h-44" src={kincir1} alt="Kincir"/>
                     <img className="absolute -z-10 -bottom-20 -left-40 hidden md:block w-64" src={gedung1} alt="Gedung"/>
@@ -83,7 +83,7 @@ export default function Event() {
                 </div>
             </Section>
             <Section id="internasionalSeminar" className="w-full flex items-center justify-center">
-                <div className="md:max-w-4xl w-full md:p-1 relative z-0 flex flex-col justify-center items-center">
+                <div className="md:max-w-3xl w-full md:p-1 relative z-0 flex flex-col justify-center items-center">
                     <img className="absolute -top-20 -left-20 hidden md:block w-36" src={pohon1} alt="Pohon"/>
                     <img className="absolute -top-20 -right-20 hidden md:block h-44" src={kincir1} alt="Kincir"/>
                     <img className="absolute -z-10 -bottom-20 -left-40 hidden md:block w-64" src={gedung1} alt="Gedung"/>
@@ -109,7 +109,7 @@ export default function Event() {
                 </div>
             </Section>
             <Section className="w-full flex items-center justify-center">
-                <div className="md:max-w-4xl w-full md:p-1 relative z-0 flex flex-col justify-center items-center">
+                <div className="md:max-w-3xl w-full md:p-1 relative z-0 flex flex-col justify-center items-center">
                     <img className="absolute -top-20 -left-20 hidden md:block w-36" src={pohon1} alt="Pohon"/>
                     <img className="absolute -top-20 -right-20 hidden md:block h-44" src={kincir1} alt="Kincir"/>
                     <img className="absolute -z-10 -bottom-20 -left-40 hidden md:block w-64" src={gedung1} alt="Gedung"/>
@@ -122,7 +122,7 @@ export default function Event() {
                 </div>
             </Section>
             <Section id="additionalEvents" className="w-full flex items-center justify-center">
-                <div className="md:max-w-4xl w-full md:p-1 relative z-0 flex flex-col justify-center items-center">
+                <div className="md:max-w-3xl w-full md:p-1 relative z-0 flex flex-col justify-center items-center">
                     <img className="absolute -top-20 -left-20 hidden md:block w-36" src={pohon1} alt="Pohon"/>
                     <img className="absolute -top-20 -right-20 hidden md:block h-44" src={kincir1} alt="Kincir"/>
                     <img className="absolute -z-10 -bottom-20 -left-40 hidden md:block w-64" src={gedung1} alt="Gedung"/>
@@ -135,7 +135,7 @@ export default function Event() {
                 </div>
             </Section>
             <Section className="w-full flex items-center justify-center">
-                <div className="md:max-w-4xl w-full md:p-1 relative z-0 flex flex-col justify-center items-center">
+                <div className="md:max-w-3xl w-full md:p-1 relative z-0 flex flex-col justify-center items-center">
                     <img className="absolute -top-20 -left-20 hidden md:block w-36" src={pohon1} alt="Pohon"/>
                     <img className="absolute -top-20 -right-20 hidden md:block h-44" src={kincir1} alt="Kincir"/>
                     <img className="absolute -z-10 -bottom-20 -left-40 hidden md:block w-64" src={gedung1} alt="Gedung"/>
@@ -148,7 +148,7 @@ export default function Event() {
                 </div>
             </Section>
             <Section className="w-full flex items-center justify-center">
-                <div className="md:max-w-4xl w-full md:p-1 relative z-0 flex flex-col justify-center items-center">
+                <div className="md:max-w-3xl w-full md:p-1 relative z-0 flex flex-col justify-center items-center">
                     <img className="absolute -top-20 -left-20 hidden md:block w-36" src={pohon1} alt="Pohon"/>
                     <img className="absolute -top-20 -right-20 hidden md:block h-44" src={kincir1} alt="Kincir"/>
                     <img className="absolute -z-10 -bottom-20 -left-40 hidden md:block w-64" src={gedung1} alt="Gedung"/>
