@@ -99,10 +99,10 @@ export default function Event() {
                         Grand Topic: <span className="text-yellow-600">“Driving Sustainable Business Practice: The Role of Audit and Assurance”</span>
                     </p>
                     <div className="mt-6 md:w-1/2 flex justify-around">
-                        <Link to="#" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        <Link to="https://linktr.ee/InternationalSeminarPAW" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             BOOKLET
                         </Link>
-                        <Link to="#" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+                        <Link to="https://linktr.ee/InternationalSeminarPAW" className="text-white font-extrabold font-poppins bg-yellow-500 hover:ring-4 hover:ring-yellow-300  rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
                             REGISTER
                         </Link>
                     </div>
