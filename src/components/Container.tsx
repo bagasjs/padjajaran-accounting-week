@@ -12,7 +12,7 @@ export default function Container({ children  }: ContainerProps) {
         container.current?.focus();
     });
     return (
-        <div ref={container} className="w-screen h-screen overflow-scroll bg-no-repeat bg-cover bg-center snap-y snap-mandatory" 
+        <div ref={container} tabIndex={0} className="w-screen h-screen overflow-scroll bg-no-repeat bg-cover bg-center snap-y snap-mandatory" 
         style={{ backgroundImage:  `url(${background})` }}>
             {children}
         </div>
